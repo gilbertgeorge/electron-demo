@@ -1,3 +1,5 @@
-// This file is required by the index.html file and will
-// be executed in the renderer process for that window.
-// All of the Node.js APIs are available in this process.
+// renderer.js
+function doit() {
+  var sum = 1 + 1
+}
+module.exports.doit = doit;
